@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM multiarch/alpine:armhf-edge
 
 RUN apk add --no-cache mosquitto
 
