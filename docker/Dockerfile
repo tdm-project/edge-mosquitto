@@ -1,4 +1,4 @@
-FROM arm32v7/alpine:3.10
+FROM multiarch/alpine:armhf-v3.10
 
 RUN apk add --no-cache mosquitto
 
